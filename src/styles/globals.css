@@ -473,7 +473,7 @@ body {
 .content {
   display: flex; /* Make the content a flex container */
   justify-content: space-between; /* Distribute space between left and right */
-  gap: 20px; /* Optional: space between sections */
+  gap: 0px; /* Optional: space between sections */
 }
 
 .section-left {
