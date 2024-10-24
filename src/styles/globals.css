@@ -469,3 +469,17 @@ body {
 .show-all-link:hover {
   text-decoration: underline; /* Underline only on hover */
 }
+
+.content {
+  display: flex; /* Make the content a flex container */
+  justify-content: space-between; /* Distribute space between left and right */
+  gap: 20px; /* Optional: space between sections */
+}
+
+.section-left {
+  flex-basis: 25%; /* Left section takes 25% of the width */
+}
+
+.section-right {
+  flex-basis: 75%; /* Right section takes 75% of the width */
+}
